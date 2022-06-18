@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #1B1E28;
+    color: white;
+}
+
+textarea {
+    border: none;
+    resize: none;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    color: #336EC4;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    transition: ease-in 0.3s;
+}
+
+.header-section {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-section h1 {
+    font-size: 4em;
+}
+
+.header-section p {
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.input-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.text-input {
+    width: 800px;
+    height: 400px;
+    background-color: #20242E;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.text-input-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-btn {
+    padding: 10px 20px 10px 20px;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 4px;
+    color: white;
+    background-color: #336EC4;
+    border: none;
+    transition: ease-in 0.3s;
+}
+
+.output-text {
+    margin-top: 20px;
+    background-color: #1B1E28;
+    width: 100%;
+    height: 300px;
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+.output-text::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+.output-text::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #20242E; 
+}
+   
+  /* Handle */  
+.output-text::-webkit-scrollbar-thumb {
+    background: #111318; 
+    min-height: 10px;
+    border-radius: 10px;
+}
+  
+  /* Handle on hover */
+.output-text::-webkit-scrollbar-thumb:hover {
+    background: #111318; 
+}
+
+.links a:hover {
+    color: #255499;
+}
+
+.input-btn:hover {
+    background-color: #1f4072;
+    cursor: pointer;
+}
